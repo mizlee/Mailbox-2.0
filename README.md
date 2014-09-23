@@ -9,3 +9,4 @@ Tried a few other things that I wasn't able to resolve:
 * conditional buttons on the Reschedule and List views--tried a few things, not sure how to do, so they are just hidden buttons
 * wanted a hidden reset button as well, but for some reason resetting position of feed didn't stick
 
+![Video Walkthrough](mailbox.gif)
