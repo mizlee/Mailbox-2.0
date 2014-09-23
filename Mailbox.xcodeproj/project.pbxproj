@@ -12,6 +12,7 @@
 		BB97732119C9240100D5A237 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB97731F19C9240100D5A237 /* Main.storyboard */; };
 		BB97732319C9240100D5A237 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB97732219C9240100D5A237 /* Images.xcassets */; };
 		BB97732F19C9240100D5A237 /* MailboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB97732E19C9240100D5A237 /* MailboxTests.swift */; };
+		BB97733919C924C000D5A237 /* MailboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB97733819C924C000D5A237 /* MailboxViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		BB97732819C9240100D5A237 /* MailboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MailboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB97732D19C9240100D5A237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB97732E19C9240100D5A237 /* MailboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailboxTests.swift; sourceTree = "<group>"; };
+		BB97733819C924C000D5A237 /* MailboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailboxViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				BB97731B19C9240100D5A237 /* AppDelegate.swift */,
+				BB97733819C924C000D5A237 /* MailboxViewController.swift */,
 				BB97731D19C9240100D5A237 /* ViewController.swift */,
 				BB97731F19C9240100D5A237 /* Main.storyboard */,
 				BB97732219C9240100D5A237 /* Images.xcassets */,
@@ -210,6 +213,7 @@
 			files = (
 				BB97731E19C9240100D5A237 /* ViewController.swift in Sources */,
 				BB97731C19C9240100D5A237 /* AppDelegate.swift in Sources */,
+				BB97733919C924C000D5A237 /* MailboxViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +399,7 @@
 				BB97733419C9240100D5A237 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB97733519C9240100D5A237 /* Build configuration list for PBXNativeTarget "MailboxTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +408,7 @@
 				BB97733719C9240100D5A237 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

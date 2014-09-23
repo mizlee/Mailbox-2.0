@@ -1,0 +1,44 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww20980\viewh12060\viewkind0
+\pard\tx2880\tx5734\tx8640\pardirnatural
+
+\f0\fs24 \cf0 start with icon alphas to zero\
+other screen alphas at zero\
+\
+on Pan Begin\'85	set color to grey\
+			\
+on Pan Change\'85	drag message	\'85if a little\'85	set bg color to grey  \
+			set primary icon alpha to partial \
+						\
+		\'85if more\'85	set all other icons alpha to 0 \
+			animate: \{set bg color to yellow/green \
+			set first icon alpha to 1\}\
+			move icon with drag\
+			\
+\
+		\'85if lots more\'85	set first icon alpha to 0\
+			animate: \{set bg color to brown/red\
+			set second icon alpha to 1\}\
+			move icon with drag\
+\
+on Pan End\'85	\'85if a little\'85	snap back\
+\
+	\'85if more\'85	move message out AND THEN (bool)\
+\pard\tx2880\tx5734\tx8640\tx11525\pardirnatural
+\cf0 		if right: move up feed\
+		if left: show screen 	on click out\'85	move feed up\
+\pard\tx2880\tx5734\tx8640\pardirnatural
+\cf0 \
+	\'85if lots more\'85	move message out AND THEN (bool)\
+		if right: move up feed\
+\pard\tx2880\tx5734\tx8640\tx11563\pardirnatural
+\cf0 		if left: show screen	on click out\'85	move feed up\
+\pard\tx2880\tx5734\tx8640\pardirnatural
+\cf0 \
+on Reschedule button\'85	animate out (alpha = 0)\
+	move feed up\
+	\
+\
+on Edge Pan\'85	etc	}
